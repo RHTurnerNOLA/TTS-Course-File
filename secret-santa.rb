@@ -1,4 +1,7 @@
 # secret-santa.rb
+
+# This is Robert's change
+
 header_size = 50
 puts "~" * header_size
 puts "Secret Santa".center(header_size)
@@ -26,9 +29,7 @@ puts 'Thank you for those ' + count.to_s + ' names.'
 puts "\n"
 count = count - 1
 
-# for x in 0..count
-#   puts names[x]
-# end
+
 
 names = names.sort{rand}
 
